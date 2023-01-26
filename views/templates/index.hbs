@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather WEB</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class='render-popup-msg'>
+        <h3>Note</h3>
+        <div>
+            <div>Render might have hosting issues</div>
+        </div>
+    </div>
+    <div id="header-container">
+        <div class="arrow-right"></div>
+        <div class="arrow-right"></div>
+        <div class="arrow-right"></div>
+        <div id="sun"></div>
+        <div id="moon"></div>
+        <div class="cloud">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1>Climate Check</h1>
+    </div>
+    <form>
+        <input id='inputText' type="text" placeholder="Enter any location to check the weather">
+        <br><br>
+        <button id="checkWeatherBtn">Check Weather</button>
+    </form>
+    <div id="result-container">
+        <div id="tempInfo-container">
+            <p id="place-result"></p>
+            <p id="temp-result"></p>
+            <img src='images/weatherPic.png' alt='weather-icon' id="weather-icon" />
+            <p id="weather-description"></p>
+        </div>
+        <div id="mapInfo-container">
+            <img src="" alt="map" id="map-img" />
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
